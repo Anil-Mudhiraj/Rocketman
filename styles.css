@@ -1,0 +1,329 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.border {
+  border: 1px solid black;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+button {
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar {
+  display: flex;
+}
+.logo {
+  display: flex;
+  height: 150px;
+  flex-basis: 42%;
+  flex-grow: 0;
+  flex-shrink: 1;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar-items {
+  flex-basis: 58%;
+}
+.navbar-list {
+  list-style-type: none;
+  display: flex;
+  height: 150px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.item {
+  font-size: 1.3rem;
+  color: black;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* intro section */
+
+.intro-section {
+  width: 100%;
+  height: 700px;
+  position: relative;
+  top: 0;
+  left: 0;
+  /* background-color: aliceblue;
+  background-image: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.7) 0%,
+      rgba(0, 0, 0, 0.7) 100%
+    ),
+    url("Images/spacex.jpg");
+  background-size: cover; */
+  background-position: 1%;
+}
+#myVideo {
+  max-width: 100%;
+  min-width: 100%;
+}
+
+.intro-section-content {
+  position: absolute;
+  top: 365px;
+  left: 210px;
+  color: white;
+  font-size: 2.3rem;
+  line-height: 82px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.intro-section-content .button {
+  background-color: white;
+  color: black;
+  padding: 10px 15px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.button:hover {
+  border: 0;
+  background-color: black;
+  color: aliceblue;
+  padding: 12px 20px;
+}
+
+/*
+mid section
+*/
+.mid-section {
+  margin-bottom: 50px;
+}
+.mid-section .heading {
+  display: flex;
+  height: 280px;
+  justify-content: center;
+  align-items: center;
+}
+
+.mid-section .heading p {
+  font-size: 2rem;
+  font-family: "Montserrat", sans-serif;
+}
+
+.card-section {
+  display: flex;
+}
+.card {
+  border: 1px solid gray;
+  width: 570px;
+  height: 630px;
+}
+.content {
+  padding: 50px 30px;
+}
+.content h4,
+.content p {
+  text-align: center;
+  font-size: 1.5rem;
+  padding-bottom: 30px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.content .link {
+  display: flex;
+  justify-content: center;
+}
+.link a {
+  font-size: 1.2rem;
+  color: #815fd2;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* Services */
+
+.services {
+  margin: 100px 170px;
+  display: flex;
+  flex-direction: column;
+}
+.services img {
+  width: 750px;
+}
+.services-description {
+  border: 1px solid black;
+  background-color: rgb(41, 41, 41);
+  color: white;
+  width: 500px;
+
+  font-family: "Montserrat", sans-serif;
+}
+
+.services-description-heading {
+  font-weight: 700;
+  font-size: 2rem;
+  margin: 30px 40px 0;
+}
+.services-description-info {
+  margin: 30px 40px 0;
+  line-height: 26px;
+  font-size: 1.2rem;
+}
+.services-description button {
+  margin: 30px 40px 50px;
+  padding: 12px 50px;
+  font-size: 1.1rem;
+  font-weight: 300;
+  color: rgb(41, 41, 41);
+  cursor: pointer;
+}
+
+.services-box-1 {
+  position: relative;
+  top: 0;
+  left: 0;
+  margin-bottom: 150px;
+}
+
+.services-box-1 img {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.services-box-1 .services-description {
+  position: absolute;
+  top: 315px;
+  left: 600px;
+  z-index: 1;
+}
+
+.services-box-2 {
+  position: relative;
+  top: 0;
+  left: 0;
+  margin-bottom: 150px;
+}
+
+.services-box-2 .image {
+  position: relative;
+  top: 0;
+  right: -425px;
+}
+
+.services-box-2 .services-description {
+  position: absolute;
+  top: 315px;
+  left: 60px;
+  z-index: 1;
+}
+
+.services-box-3 {
+  position: relative;
+  top: 0;
+  left: 0;
+  margin-bottom: 200px;
+}
+.services-box-3 .image {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.services-box-3 .services-description {
+  position: absolute;
+  top: 315px;
+  left: 600px;
+  z-index: 1;
+}
+.contact-info {
+  text-align: center;
+  font-size: 2rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+}
+
+.contact-info button {
+  margin-top: 25px;
+  font-size: 1.1rem;
+  padding: 12px 40px;
+  background-color: rgb(129, 78, 191);
+  color: white;
+
+  cursor: pointer;
+}
+
+.tagline {
+  margin: 150px 0 50px;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+
+.tagline h3 {
+  font-style: italic;
+  font-weight: 900;
+  font-size: 1.5rem;
+  line-height: 30px;
+}
+
+.tagline p {
+  font-size: 1.1rem;
+  margin-top: 10px;
+  font-weight: 500;
+}
+
+.footer .contact {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 300px;
+  border: 1px solid black;
+  background-color: rgb(141, 95, 197);
+  font-family: "Montserrat", sans-serif;
+  padding: 70px 150px;
+  color: white;
+}
+
+.footer .contact h1 {
+  font-size: 2.5rem;
+}
+
+.footer .contact p {
+  margin-top: 15px;
+  font-size: 1.3rem;
+}
+
+.footer button {
+  position: absolute;
+  right: 150px;
+  top: 100px;
+  padding: 15px 30px;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+
+.footer-info {
+  height: 300px;
+  background-color: black;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.col {
+  margin-top: 80px;
+}
+
+.col p {
+  color: rgb(125, 133, 133);
+  font-weight: 600;
+  font-size: 0.7rem;
+}
+
+.icon {
+  margin: 0 5px;
+  cursor: pointer;
+}
